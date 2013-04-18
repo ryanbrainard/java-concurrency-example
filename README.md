@@ -1,4 +1,4 @@
-Java Concurrecy Example
+Java Concurrency Example
 =======================
 
 A contrived example of simple concurrency using cached thread pool executor service.
