@@ -25,4 +25,4 @@ scheduling of the threads. Here is the example output:
     Thread[pool-29-thread-7,5,main]:	!
 
 Of course you would probably want to reuse the thead pool in practice, but this is creating
-and shuting it down here for simplicity.
+and shutting it down here for simplicity.
