@@ -17,7 +17,7 @@ public class HelloWorld extends HttpServlet {
             executor.submit(new Runnable() {
                 public void run() {
                     try {
-                        resp.getWriter().println(Thread.currentThread() + ": " + String.valueOf(c));
+                        resp.getWriter().println(Thread.currentThread() + ":\t" + String.valueOf(c));
                     } catch (IOException e) {
                         throw new RuntimeException(e);
                     }
